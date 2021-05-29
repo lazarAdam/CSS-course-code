@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    color: aquamarine;
+    font-family: sans-serif;
+
+}
+code{
+    font-family: monospace;
+    color: red;
+}
+
+.code-two code{
+    color: green;
+}
+
+li{
+    font-family: inherit;
+}
+
+li {
+    background: black;
+    color: white;
+}

@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+
+}
+.box__one,.box__two{
+    padding: 4px 8px 12px 14px;
+    margin: 4px 8px 12px 14px;
+    display: inline-block;
+    border: 3px solid black;
+    /*margin: 0;*/
+}
+body,html{
+    height: 100%;
+}
+
+.box__one{
+    height: 300px;
+    background: #ff1b68;
+    width: 50%;
+    /*visibility: hidden;*/
+    box-sizing: border-box;
+}
+.box__two{
+    background: #2ddf5c;
+    box-sizing: border-box;
+    width: 40%;
+}
+
+div +:hover{
+    background: greenyellow;
+}

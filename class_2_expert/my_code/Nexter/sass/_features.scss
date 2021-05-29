@@ -1,0 +1,43 @@
+.features {
+
+  grid-column: center-start / center-end;
+
+  margin: 15rem 0;
+
+  // features is another grid inside of the body grid
+  display: grid;
+  //grid-template-columns: repeat(3, 1fr);
+
+  // using responsive grid columns with auto-fit and minmax() with minimum of 25rem per cell and up to 1fr
+  grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+  grid-gap: 6rem;
+
+  align-items: start ;
+}
+
+.feature {
+  // feature is another grid inside of the features grid
+  display: grid;
+  grid-column-gap: 2.5rem;
+  grid-row-gap:  1.5rem;
+  grid-template-columns: min-content 1fr;
+  // not required since the grid algorithm will implicitly  add new row for new content as needed
+  grid-template-rows: auto auto;
+
+  &__icon {
+
+    fill: $color-primary;
+    width: 4.5rem;
+    height: 4.5rem;
+
+    // the -1 refers to the end of the explicitly defined row. This wont work if rows are implicitly added meaning
+    // not setting 'grid-template-rows' in that case 1/span 2 would be the next option
+    grid-row: 1 / -1;
+
+    transform: translateY(-1rem);
+  }
+
+  &__text {
+    font-size: 1.7rem;
+  }
+}

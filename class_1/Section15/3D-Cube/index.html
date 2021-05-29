@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="scene">
+    <div class="cube">
+        <div class="cube__face cube__face--front">F</div>
+        <div class="cube__face cube__face--back">BA</div>
+        <div class="cube__face cube__face--right">R</div>
+        <div class="cube__face cube__face--left">L</div>
+        <div class="cube__face cube__face--top">T</div>
+        <div class="cube__face cube__face--bottom">BT</div>
+
+    </div>
+</div>
+
+<div class="control-group">
+    <label for="c_top"> show top
+        <input type="radio" id="c_top" value="top" name="rotate_cub_btn">
+    </label>
+    <label for="c_bottom"> show bottom
+        <input type="radio" id="c_bottom" value="bottom" name="rotate_cub_btn">
+    </label>
+    <label for="c_front"> show front
+        <input type="radio" id="c_front" value="front" checked="" name="rotate_cub_btn">
+    </label>
+    <label for="c_left"> show left
+        <input type="radio" id="c_left" value="left" name="rotate_cub_btn">
+    </label>
+    <label for="c_right"> show right
+        <input type="radio" id="c_right" value="right" name="rotate_cub_btn">
+    </label>
+    <label for="c_back"> show back
+        <input type="radio" id="c_back" value="back" name="rotate_cub_btn">
+    </label>
+</div>
+
+</body>
+<script src="3DCube.js"></script>
+</html>

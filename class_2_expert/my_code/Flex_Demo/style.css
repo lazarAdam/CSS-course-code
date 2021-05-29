@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    background-color: #ccc;
+    padding: 10px;
+    height: 1000px;
+    display: flex;
+    /* main axis is horizontal and cross axis is vertical*/
+    flex-direction: row;
+
+    /* main axis is vertical and cross axis is horizontal*/
+    /*flex-direction: column;*/
+    justify-content: space-between;/** along the main axis**/
+    align-items: flex-start; /**along the cross  axis**/
+    flex-wrap: wrap;
+
+    /* align the the entire content inside the flex container along the cross axis*/
+    align-content: center;
+
+}
+
+.item{
+    background-color: #ff1b68;
+    padding: 40px;
+    margin: 3px;
+    color: #fff;
+    font-size: 40px;
+    /*flex-grow: 1;*/
+}
+
+.item--2{
+    height: 200px;
+    /*flex-basis: 300px;*/
+    /*flex-shrink: 0;*/
+    flex: 0 0 300px;
+}
+
+.item--3{
+    order: 1;
+    flex-grow: 1;
+}
+
+.item--4{
+
+    /*align-self: flex-end;*/
+    order: -1;
+}
