@@ -49,7 +49,7 @@ and always refer to the default browser font size also rems don't work well with
   }
   @if $breakpoint == tab-port {
 
-    @media only screen and (max-width: 56.25rem) { //up to 900px
+    @media only screen and (max-width: 56.25em) { //up to 900px
       @content
     }
   }

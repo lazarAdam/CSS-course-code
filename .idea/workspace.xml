@@ -1,311 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="1\24\21">
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/css/fonts/linea-basic-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/css/fonts/linea-basic-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/css/fonts/linea-basic-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/css/fonts/linea-basic-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/css/icon-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/hero-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/logo-green-1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/logo-green-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/logo-green-small-1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/logo-green-small-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-1-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-2-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-3-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/nat-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/img/video.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/abstracts/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/abstracts/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/abstracts/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/base/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/base/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/components/_bg-video.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/components/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/components/_composition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/components/_feature-box.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/components/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/components/_popup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/components/_story.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/layout/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/layout/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/npm-debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/after-S05/sass/pages/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/css/fonts/linea-basic-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/css/fonts/linea-basic-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/css/fonts/linea-basic-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/css/fonts/linea-basic-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/css/icon-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/css/style.comp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/css/style.concat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/css/style.prefix.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/hero-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/logo-green-1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/logo-green-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/logo-green-small-1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/logo-green-small-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-1-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-2-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-3-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/nat-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/img/video.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/abstracts/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/abstracts/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/abstracts/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/base/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/base/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/components/_bg-video.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/components/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/components/_composition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/components/_feature-box.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/components/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/components/_popup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/components/_story.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/layout/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/layout/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/npm-debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/final-after-S06/sass/pages/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/hero-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/logo-green-1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/logo-green-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/logo-green-small-1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/logo-green-small-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-1-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-2-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-3-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/nat-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/img/video.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Natours/starter/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/css/style.comp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/css/style.prefix.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-13.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-14.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/gal-9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/hero.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/house-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/house-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/house-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/house-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/house-5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/house-6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/logo-bbc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/logo-bi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/logo-forbes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/logo-techcrunch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/realtor-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/realtor-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/realtor-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/story-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/story-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/img/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_features.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_homes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_realtors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_story.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/final/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-13.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-14.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/gal-9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/hero.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/house-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/house-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/house-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/house-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/house-5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/house-6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/logo-bbc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/logo-bi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/logo-forbes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/logo-techcrunch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/realtor-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/realtor-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/realtor-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/story-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/story-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/img/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_features.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_homes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_realtors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_story.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Nexter/starter/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/css/style.comp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/css/style.prefix.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/aircraft-take-off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/bookmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/chat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/chevron-thin-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/key.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/location-pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/magnifying-glass.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/SVG/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/chevron-thin-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/hotel-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/hotel-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/hotel-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/user-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/user-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/user-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/user-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/user-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/user-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/img/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/sass/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/sass/_components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/sass/_layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/final/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/chevron-thin-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/hotel-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/hotel-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/hotel-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/user-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/user-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/user-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/user-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/user-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/user-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/img/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/Trillo/starter/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/npm-fixes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/slides-students-C04.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/original_code/vscode-setup.md" afterDir="false" />
+    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/hero-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/hero-small.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/styles_test.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/styles_test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-1-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-1-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-2-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-2-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-3-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-3-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/nat-3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Nexter/sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Nexter/sass/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_composition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_composition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,23 +90,6 @@
       <recent name="D:\Courses\CSS - The Complete Guide 2021\CSS-C-2021\class_2_expert\my_code\Natours" />
       <recent name="D:\Courses\CSS - The Complete Guide 2021\CSS-C-2021\class_2_expert\section2" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="watch:sass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/class_2_expert/my_code/Nexter/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="watch:sass" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.watch:sass" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -485,14 +180,9 @@
       <workItem from="1622291946724" duration="4683000" />
       <workItem from="1622298867389" duration="758000" />
       <workItem from="1622300025527" duration="673000" />
-      <workItem from="1622300910179" duration="22949000" />
-      <workItem from="1622433698802" duration="170000" />
-      <workItem from="1622513592269" duration="17000" />
-      <workItem from="1622514062379" duration="917000" />
-      <workItem from="1622554686917" duration="100000" />
-      <workItem from="1622644229632" duration="10000" />
-      <workItem from="1622728529167" duration="7000" />
-      <workItem from="1623036608107" duration="2000" />
+      <workItem from="1622300910179" duration="23335000" />
+      <workItem from="1622853317007" duration="1621000" />
+      <workItem from="1622897575412" duration="37871000" />
     </task>
     <task id="LOCAL-00001" summary="1\24\21">
       <created>1611536612054</created>
@@ -634,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622223585220</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="1\24\21">
+      <created>1622420048874</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1622420048874</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
