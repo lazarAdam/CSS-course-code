@@ -379,6 +379,23 @@
       <recent name="D:\Courses\CSS - The Complete Guide 2021\CSS-C-2021\class_2_expert\section2" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="watch:sass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/class_2_expert/my_code/Nexter/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch:sass" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch:sass" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -469,6 +486,13 @@
       <workItem from="1622298867389" duration="758000" />
       <workItem from="1622300025527" duration="673000" />
       <workItem from="1622300910179" duration="22949000" />
+      <workItem from="1622433698802" duration="170000" />
+      <workItem from="1622513592269" duration="17000" />
+      <workItem from="1622514062379" duration="917000" />
+      <workItem from="1622554686917" duration="100000" />
+      <workItem from="1622644229632" duration="10000" />
+      <workItem from="1622728529167" duration="7000" />
+      <workItem from="1623036608107" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="1\24\21">
       <created>1611536612054</created>
