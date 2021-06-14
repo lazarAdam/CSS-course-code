@@ -17,12 +17,12 @@
   /*clip-path: polygon(0 0,100% 50%,0 100%);*/
   //clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: ellipse(80% 100% at 50% 0%);
-
+  z-index: 100;
   position: relative;
 
 
-  @include respond(tab-port) {
-    clip-path: ellipse(100% 80vh at 50% 0%);
+  @include respond(tab-land) {
+    clip-path: ellipse(100% 80% at 50% 0%);
     height: 95vh;
 
   }
