@@ -3,12 +3,12 @@
 
   @include clearfix;
 
-  @include respond(tab-port){
+  @include respond(tab-port) {
 
     // using clearfix on the parent because the images are floated in tab-port MQ
     @include clearfix;
 
-    &__heading{
+    &__heading {
       text-align: center;
     }
 
@@ -27,8 +27,9 @@
 
     @include respond(tab-land) {
 
-      width: 55%;
+      width: 50%;
     }
+
 
     @include respond(tab-port) {
       float: left;
@@ -36,8 +37,8 @@
       width: 33.3333333%;
       box-shadow: 0 1.5rem 3rem rgba($color-black, .2);
 
-
     }
+
 
     &--p1 {
       left: 0;
@@ -45,22 +46,42 @@
       z-index: 12;
       @include respond(tab-port) {
         top: 0;
-        left: -20;
+        left: -20%;
         transform: scale(1.7);
+      }
+      @include respond(phone) {
+
+        left: 0;
+        top: 0;
+        transform: scale(1.3);
       }
 
     }
+
 
     &--p2 {
       left: 25%;
       top: 15rem;
       z-index: 13;
+
+      @include respond(tab-land) {
+        right: 20%;
+        top: 13rem;
+      }
+
       @include respond(tab-port) {
         top: 0;
+        right: 0;
         left: 0;
         transform: scale(2);
         z-index: 100;
 
+      }
+      @include respond(phone) {
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: scale(1.5);
       }
 
     }
@@ -69,13 +90,28 @@
       right: -20%;
       top: 35rem;
       z-index: 11;
+
+      @include respond(tab-land) {
+        right: 5%;
+        top: 28rem;
+      }
+
       @include respond(tab-port) {
         top: 0;
+        right: 0;
         left: 20%;
         transform: scale(1.7);
 
       }
+      @include respond(phone) {
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: scale(1.3);
+      }
+
     }
+
 
     &:hover {
       //outline: 1.5rem solid $color-primary;
