@@ -366,24 +366,27 @@ body {
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
-  border-radius: 3px;
+  border-radius: 5rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
   @media only screen and (max-width: 56.25em) {
     .feature-box {
       padding: 2rem; } }
   .feature-box__icon {
-    font-size: 6rem;
-    padding: .2rem;
-    margin-bottom: .5rem;
-    background-image: linear-gradient(to right, #fcb045, #7c31af);
-    -webkit-background-clip: text;
-    color: transparent; }
-    @media only screen and (max-width: 56.25em) {
-      .feature-box__icon {
-        margin-bottom: 0; } }
+    width: 15rem;
+    height: 15rem;
+    fill: url("#grd"); }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
+
+.feature__heading {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  color: #eee;
+  letter-spacing: .2rem;
+  transition: all .2s; }
 
 .card {
   perspective: 100rem;
@@ -1030,8 +1033,8 @@ body {
       padding-bottom: 10rem; } }
 
 .section-features {
-  padding: 20rem 0;
-  background-image: linear-gradient(to left, rgba(124, 49, 175, 0.85), rgba(253, 29, 29, 0.85), rgba(252, 176, 69, 0.85));
+  padding: 30rem 0;
+  background-image: linear-gradient(to left, rgba(124, 49, 175, 0.8), rgba(253, 29, 29, 0.8), rgba(252, 176, 69, 0.8));
   background-size: cover;
   margin-top: -10rem; }
   @media only screen and (max-width: 56.25em) {
