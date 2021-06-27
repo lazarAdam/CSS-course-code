@@ -13,14 +13,18 @@
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
 
     &--front {
 
-      background-color: $color-white;
+      background: linear-gradient(
+                      to top right,
+                      rgba($color-primary-dark,.8),
+                      rgba($color-primary,.8),
+                      rgba($color-primary-light,.8));
     }
 
     &--back {
@@ -65,38 +69,123 @@
   &__picture {
 
     background-size: cover;
-    height: 23rem;
+    height:100%;
     background-blend-mode: screen;
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    clip-path: polygon(0 0, 50% 0, 100% 30%, 55% 100%,0% 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 
     &--1 {
 
-      background-image: linear-gradient(
-                      to right bottom,
-                      $color-secondary-light,
-                      $color-secondary-dark
-      ),
-      url("../img/nat-5.jpg");
+      background-image:
+      url("../img/models/mod-21.jpg");
+
     }
 
     &--2 {
-      background-image: linear-gradient(
-                      to right bottom,
-                      $color-primary-light,
-                      $color-primary-dark
-      ),
-      url("../img/nat-6.jpg");
+      background-image: url("../img/models/mod-2.jpg");
     }
 
     &--3 {
-      background-image: linear-gradient(
-                      to right bottom,
-                      $color-tertiary-light,
-                      $color-tertiary-dark
-      ),
-      url("../img/nat-7.jpg")
+      background-image: url("../img/models/mod-6.jpg")
+    }
+
+    &--4{
+      background-image: url("../img/models/mod-12.jpg")
+
+    }
+    &--5{
+
+      background-image: url("../img/models/mod-13.jpg")
+    }
+    &--6{
+
+      background-image: url("../img/models/mod-14.jpg")
+    }
+
+    &--7 {
+      background-image: url("../img/models/mod-1.jpg");
+
+      background-position: 100% 100%;
+      background-size: 120%;
+    }
+
+    &--8 {
+      background-image: url("../img/models/mod-4.jpg")
+    }
+
+    &--9{
+      background-image: url("../img/models/mod-5.jpg")
+
+    }
+    &--10{
+
+      background-image: url("../img/models/mod-7.jpg")
+    }
+    &--11{
+
+      background-image: url("../img/models/mod-8.jpg")
+    }
+
+    &--12{
+
+      background-image: url("../img/models/mod-9.jpg")
+    }
+
+    &--13{
+
+      background-image: url("../img/models/mod-10.jpg")
+    }
+
+    &--14{
+
+      background-image: url("../img/models/mod-11.jpg")
+    }
+    &--15{
+
+      background-image: url("../img/models/mod-15.jpg")
+    }
+
+    &--16{
+
+      background-image: url("../img/models/mod-16.jpg")
+    }
+
+    &--17{
+
+      background-image: url("../img/models/mod-17.jpg")
+    }
+
+    &--18{
+
+      background-image: url("../img/models/mod-18.jpg")
+    }
+
+    &--19{
+
+      background-image: url("../img/models/mod-19.jpg")
+    }
+
+    &--20{
+
+      background-image: url("../img/models/mod-20.jpg")
+    }
+
+    &--21{
+
+      background-image: url("../img/models/mod-3.jpg")
+    }
+    &--22{
+
+      background-image: url("../img/models/mod-22.jpg")
+    }
+    &--23{
+
+      background-image: url("../img/models/mod-23.jpg")
+    }
+    &--24{
+
+      background-image: url("../img/models/mod-24.jpg")
     }
   }
 

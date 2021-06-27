@@ -180,8 +180,8 @@ body {
     .u-margin-top-big {
       margin-top: 5rem !important; } }
 
-.u-margin-huge-big {
-  margin-top: 10rem !important; }
+.u-margin-bottom-huge {
+  margin-bottom: 10rem !important; }
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important; }
@@ -364,11 +364,12 @@ body {
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
-  padding: 2.5rem;
+  padding: 2rem;
   text-align: center;
   border-radius: 5rem;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  transition: transform .3s; }
+  box-shadow: 0 5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s;
+  cursor: pointer; }
   @media only screen and (max-width: 56.25em) {
     .feature-box {
       padding: 2rem; } }
@@ -400,11 +401,11 @@ body {
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
-      background-color: #ffffff; }
+      background: linear-gradient(to top right, rgba(124, 49, 175, 0.8), rgba(253, 29, 29, 0.8), rgba(252, 176, 69, 0.8)); }
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back--1 {
@@ -419,17 +420,61 @@ body {
     transform: rotateY(0); }
   .card__picture {
     background-size: cover;
-    height: 23rem;
+    height: 100%;
     background-blend-mode: screen;
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    clip-path: polygon(0 0, 50% 0, 100% 30%, 55% 100%, 0% 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #fcb045, #ff7730), url("../img/nat-5.jpg"); }
+      background-image: url("../img/models/mod-21.jpg"); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #fcb045, #7c31af), url("../img/nat-6.jpg"); }
+      background-image: url("../img/models/mod-2.jpg"); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url("../img/nat-7.jpg"); }
+      background-image: url("../img/models/mod-6.jpg"); }
+    .card__picture--4 {
+      background-image: url("../img/models/mod-12.jpg"); }
+    .card__picture--5 {
+      background-image: url("../img/models/mod-13.jpg"); }
+    .card__picture--6 {
+      background-image: url("../img/models/mod-14.jpg"); }
+    .card__picture--7 {
+      background-image: url("../img/models/mod-1.jpg");
+      background-position: 100% 100%;
+      background-size: 120%; }
+    .card__picture--8 {
+      background-image: url("../img/models/mod-4.jpg"); }
+    .card__picture--9 {
+      background-image: url("../img/models/mod-5.jpg"); }
+    .card__picture--10 {
+      background-image: url("../img/models/mod-7.jpg"); }
+    .card__picture--11 {
+      background-image: url("../img/models/mod-8.jpg"); }
+    .card__picture--12 {
+      background-image: url("../img/models/mod-9.jpg"); }
+    .card__picture--13 {
+      background-image: url("../img/models/mod-10.jpg"); }
+    .card__picture--14 {
+      background-image: url("../img/models/mod-11.jpg"); }
+    .card__picture--15 {
+      background-image: url("../img/models/mod-15.jpg"); }
+    .card__picture--16 {
+      background-image: url("../img/models/mod-16.jpg"); }
+    .card__picture--17 {
+      background-image: url("../img/models/mod-17.jpg"); }
+    .card__picture--18 {
+      background-image: url("../img/models/mod-18.jpg"); }
+    .card__picture--19 {
+      background-image: url("../img/models/mod-19.jpg"); }
+    .card__picture--20 {
+      background-image: url("../img/models/mod-20.jpg"); }
+    .card__picture--21 {
+      background-image: url("../img/models/mod-3.jpg"); }
+    .card__picture--22 {
+      background-image: url("../img/models/mod-22.jpg"); }
+    .card__picture--23 {
+      background-image: url("../img/models/mod-23.jpg"); }
+    .card__picture--24 {
+      background-image: url("../img/models/mod-24.jpg"); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -1019,10 +1064,12 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding-top: 35rem;
-  padding-bottom: 25rem;
+  padding-top: 40rem;
+  padding-bottom: 20rem;
   margin-top: -30vh;
-  clip-path: ellipse(100% 59% at 50% 41%); }
+  clip-path: ellipse(100% 59% at 50% 41%);
+  z-index: 50;
+  position: relative; }
   @media only screen and (max-width: 75em) {
     .section-about {
       padding-top: 20rem;
@@ -1033,10 +1080,12 @@ body {
       padding-bottom: 10rem; } }
 
 .section-features {
-  padding: 30rem 0;
+  padding-top: 26rem;
+  padding-bottom: 26rem;
   background-image: linear-gradient(to left, rgba(124, 49, 175, 0.8), rgba(253, 29, 29, 0.8), rgba(252, 176, 69, 0.8));
   background-size: cover;
-  margin-top: -10rem; }
+  margin-top: -10rem;
+  clip-path: ellipse(100% 59% at 50% 41%); }
   @media only screen and (max-width: 56.25em) {
     .section-features {
       padding: 20rem 0; } }
