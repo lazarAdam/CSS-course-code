@@ -373,8 +373,8 @@ body {
     .feature-box {
       padding: 2rem; } }
   .feature-box__icon {
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     fill: url("#grd"); }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
