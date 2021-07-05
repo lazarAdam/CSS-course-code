@@ -404,16 +404,10 @@ body {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
-    .card__side--front {
-      background: linear-gradient(to top right, rgba(124, 49, 175, 0.8), rgba(253, 29, 29, 0.8), rgba(252, 176, 69, 0.8)); }
+    .card__side--front, .card__side--back {
+      background: linear-gradient(to top right, rgba(124, 49, 175, 0.9), rgba(253, 29, 29, 0.9), rgba(252, 176, 69, 0.9)); }
     .card__side--back {
       transform: rotateY(180deg); }
-      .card__side--back--1 {
-        background-image: linear-gradient(to right bottom, #fcb045, #ff7730); }
-      .card__side--back--2 {
-        background-image: linear-gradient(to right bottom, #fcb045, #7c31af); }
-      .card__side--back--3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -430,7 +424,9 @@ body {
     .card__picture--2 {
       background-image: url("../img/models/mod-2.jpg"); }
     .card__picture--3 {
-      background-image: url("../img/models/mod-6.jpg"); }
+      background-image: url("../img/models/mod-6.jpg");
+      background-position: 100% 40%;
+      background-size: 110%; }
     .card__picture--4 {
       background-image: url("../img/models/mod-12.jpg"); }
     .card__picture--5 {
@@ -442,29 +438,46 @@ body {
       background-position: 100% 100%;
       background-size: 120%; }
     .card__picture--8 {
-      background-image: url("../img/models/mod-4.jpg"); }
+      background-image: url("../img/models/mod-4.jpg");
+      background-position: 50% center;
+      background-size: cover;
+      background-repeat: no-repeat; }
     .card__picture--9 {
-      background-image: url("../img/models/mod-5.jpg"); }
+      background-image: url("../img/models/mod-5.jpg");
+      background-position: 150% 100%;
+      background-size: 110%; }
     .card__picture--10 {
       background-image: url("../img/models/mod-7.jpg"); }
     .card__picture--11 {
-      background-image: url("../img/models/mod-8.jpg"); }
+      background-image: url("../img/models/mod-8.jpg");
+      background-position: 150% 100%;
+      background-size: 115%; }
     .card__picture--12 {
-      background-image: url("../img/models/mod-9.jpg"); }
+      background-image: url("../img/models/mod-9.jpg");
+      background-position: 100% 100%;
+      background-size: 116%; }
     .card__picture--13 {
       background-image: url("../img/models/mod-10.jpg"); }
     .card__picture--14 {
-      background-image: url("../img/models/mod-11.jpg"); }
+      background-image: url("../img/models/mod-11.jpg");
+      background-position: 100% 100%;
+      background-size: cover; }
     .card__picture--15 {
-      background-image: url("../img/models/mod-15.jpg"); }
+      background-image: url("../img/models/mod-15.jpg");
+      background-position: 100% 100%;
+      background-size: cover; }
     .card__picture--16 {
       background-image: url("../img/models/mod-16.jpg"); }
     .card__picture--17 {
       background-image: url("../img/models/mod-17.jpg"); }
     .card__picture--18 {
-      background-image: url("../img/models/mod-18.jpg"); }
+      background-image: url("../img/models/mod-18.jpg");
+      background-position: center;
+      background-size: cover; }
     .card__picture--19 {
-      background-image: url("../img/models/mod-19.jpg"); }
+      background-image: url("../img/models/mod-19.jpg");
+      background-position: center;
+      background-size: 130%; }
     .card__picture--20 {
       background-image: url("../img/models/mod-20.jpg"); }
     .card__picture--21 {
@@ -472,41 +485,13 @@ body {
     .card__picture--22 {
       background-image: url("../img/models/mod-22.jpg"); }
     .card__picture--23 {
-      background-image: url("../img/models/mod-23.jpg"); }
+      background-image: url("../img/models/mod-23.jpg");
+      background-position: 110% 50%;
+      background-size: 120%; }
     .card__picture--24 {
-      background-image: url("../img/models/mod-24.jpg"); }
-  .card__heading {
-    font-size: 2.8rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: right;
-    color: white;
-    position: absolute;
-    top: 12rem;
-    right: 2rem;
-    width: 75%; }
-  .card__heading-span {
-    padding: 1rem 1.5rem;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone; }
-    .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(252, 176, 69, 0.85), rgba(255, 119, 48, 0.85)); }
-    .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(252, 176, 69, 0.85), rgba(124, 49, 175, 0.85)); }
-    .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
-  .card__details {
-    padding: 3rem; }
-    .card__details ul {
-      list-style: none;
-      width: 80%;
-      margin: 0 auto; }
-      .card__details ul li {
-        text-align: center;
-        font-size: 1.5rem;
-        padding: 1rem; }
-        .card__details ul li:not(:last-child) {
-          border-bottom: 1px solid #eee; }
+      background-image: url("../img/models/mod-24.jpg");
+      background-size: cover;
+      background-position: center; }
   .card__cta {
     position: absolute;
     top: 50%;
@@ -516,14 +501,12 @@ body {
     text-align: center; }
   .card__price-box {
     text-align: center;
-    margin-bottom: 8rem;
+    margin-bottom: 12rem;
     color: #ffffff;
     font-weight: 300; }
   .card__price-only {
-    font-size: 1.4rem;
+    font-size: 2.3rem;
     text-transform: uppercase; }
-  .card__price-value {
-    font-size: 6rem; }
   @media only screen and (max-width: 56.25rem), (hover: none) {
     .card {
       border-radius: 3px;
@@ -531,12 +514,19 @@ body {
       background-color: #ffffff;
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
       .card__side {
-        height: auto;
         position: relative;
-        box-shadow: none; }
+        box-shadow: none;
+        border-radius: 3px; }
+        .card__side--front {
+          background: linear-gradient(90deg, #7c31af, #fd1d1d, #fcb045); }
         .card__side--back {
+          margin-top: -5rem;
+          height: 25rem;
           transform: rotateY(0);
-          clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
+          clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+          background: linear-gradient(to top right, #7c31af, #fd1d1d, #fcb045); }
+      .card__picture {
+        clip-path: none; }
       .card:hover .card__side--front {
         transform: rotateY(0); }
       .card__details {
@@ -550,8 +540,8 @@ body {
         padding: 7rem 4rem 4rem 4rem; }
       .card__price-box {
         margin-bottom: 3rem; }
-      .card__price-value {
-        font-size: 6rem; } }
+      .card__price-only {
+        font-size: 2.8rem; } }
 
 .story {
   width: 75%;
