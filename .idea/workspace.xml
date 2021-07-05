@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_utillities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_utillities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_feature-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_feature-box.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +172,8 @@
       <workItem from="1624107161412" duration="41925000" />
       <workItem from="1624666166529" duration="16000" />
       <workItem from="1624666202488" duration="34253000" />
+      <workItem from="1624972728171" duration="10000" />
+      <workItem from="1625110956014" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="1\24\21">
       <created>1611536612054</created>
