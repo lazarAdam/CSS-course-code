@@ -27,6 +27,12 @@
 
   }
 
+@include respond(phone){
+  background-position: 40% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
   // responsive images with css when background-image is used. Conditions are separated with ','
   // webkit-min-device-pixel-ratio is the pixel density setting for safari which is the same as
   // min-resolution in other browsers

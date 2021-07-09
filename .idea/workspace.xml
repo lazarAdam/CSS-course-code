@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="1\24\21">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/vid-7.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/models/mod-24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/video.webm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_bg-video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_bg-video.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/class_2_expert/my_code/Natours/package.json" />
+  </component>
   <component name="ProjectId" id="1n2EhoPskO9CV7nwwrlAYutvCF1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -69,7 +74,7 @@
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -81,11 +86,11 @@
       <recent name="D:\Courses\CSS_the Complete Guide 2021\CSS-C-2021\class_2_expert\my_code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Natours\img" />
       <recent name="C:\Users\Home\Desktop\MY DATA\Programs-code\Courses\CSS 2021 COURSE\CSS-course-code\class_2_expert\my_code\Natours\img\models" />
       <recent name="C:\Users\Home\Desktop\MY DATA\Programs-code\Courses\CSS 2021 COURSE\CSS-course-code\class_2_expert\my_code\Natours\img" />
       <recent name="C:\Users\Home\Desktop\MY DATA\Programs&amp;code\Courses\CSS 2021 COURSE\CSS-C-2021\class_2_expert\my_code\Trillo\img" />
       <recent name="D:\Courses\CSS_the Complete Guide 2021\CSS-C-2021\class_2_expert\my_code" />
-      <recent name="D:\Courses\CSS - The Complete Guide 2021\CSS-C-2021\class_2_expert\my_code\Natours" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -186,6 +191,8 @@
       <workItem from="1624666202488" duration="34846000" />
       <workItem from="1624837972087" duration="507000" />
       <workItem from="1625316484449" duration="28700000" />
+      <workItem from="1625538477995" duration="38000" />
+      <workItem from="1625842570943" duration="15350000" />
     </task>
     <task id="LOCAL-00001" summary="1\24\21">
       <created>1611536612054</created>
