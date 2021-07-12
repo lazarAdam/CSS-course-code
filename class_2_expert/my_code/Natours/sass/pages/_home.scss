@@ -63,8 +63,11 @@
   &__ellipses{
     background-color: $color-grey-light-1;
     clip-path: ellipse(60% 100% at 50% 0%);
-    margin-bottom: -10rem;
+    margin-bottom: -11rem;
     height: 23rem;
+    position: relative;
+    z-index: 7;
+
 
     @include respond(tab-port){
       height: 10rem;
@@ -83,24 +86,32 @@
 .section-stories {
   padding: 15rem 0;
   position: relative;
-
+  z-index: 6;
+  clip-path: ellipse(100% 93.1% at 50% 7%);
+  //background-color: #7c31af;
   @include respond(tab-port) {
     padding: 10rem 0;
   }
+
 }
 
 .section-book {
-  padding: 15rem 0;
+  margin-top:-15rem;
+  padding-bottom: 25rem;
+  // since we have a negative margin on the top we need 15rem + 25rem to make the padding equal to bottom
+  padding-top:40rem;
   background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
-
+  position: relative;
+  z-index: 5;
 }
 
 .book {
-  background-image: linear-gradient(105deg,
-          rgba($color-white, .9) 0%,
-          rgba($color-white, .9) 50%,
+  background-image: linear-gradient(90deg,
+          rgba($color-grey-dark-2, .65) 0%,
+          rgba($color-grey-dark-2, .65) 50%,
           transparent 50%),
-  url("../img/nat-10.jpg");
+  url("../img/bg-6.jpg");
+  background-position: 0%;
 
   background-size: cover;
   border-radius: 3px;
