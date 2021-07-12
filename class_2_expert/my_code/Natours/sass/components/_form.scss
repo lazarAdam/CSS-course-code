@@ -1,4 +1,5 @@
 .form {
+    color: white;
 
   &__group:not(:last-child) {
 
@@ -12,7 +13,7 @@
     color: inherit;
     padding: 1.5rem 2rem;
     border-radius: 2px;
-    background-color: rgba($color-white, .5);
+    background-color: rgba($color-grey-dark-2, .6);
     border: none;
     border-bottom: 3px solid transparent;
     width: 90%;
@@ -27,16 +28,23 @@
     &:focus {
       outline: none;
       box-shadow: 0 1rem 2rem rgba($color-black, .1);
+      border-bottom: 3px solid $color-secondary-light;
+    }
+
+    // only show invalid after the user drop focus on the selected element and the element is invalid
+    // also after the user have typed something which means the placeholder will not be shown
+    &:not(:placeholder-shown):not(:focus):invalid {
+
       border-bottom: 3px solid $color-primary;
     }
 
-    &:focus:invalid {
 
-      border-bottom: 3px solid $color-secondary-dark;
+    &:focus:valid{
+      border-bottom: 3px solid #14f300;
     }
 
     &::placeholder {
-      color: $color-grey-dark-2;
+      color: $color-white;
     }
   }
 
