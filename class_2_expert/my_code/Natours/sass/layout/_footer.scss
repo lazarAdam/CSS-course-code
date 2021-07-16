@@ -1,16 +1,18 @@
 .footer {
   background-color: $color-grey-dark-3;
-  padding: 10rem 0;
+  padding-top: 19rem;
+  padding-bottom: 7rem;
   font-size: 1.4rem;
   color: $color-grey-light-1;
+  margin-top: -12rem;
 
-  @include respond(tab-port){
-    padding: 8rem 0;
-  }
+  //@include respond(tab-port){
+  //  padding: 8rem 0;
+  //}
 
   &__logo-box {
     text-align: center;
-    margin-bottom: 8rem;
+    margin-bottom: 1rem;
 
     @include respond(tab-port){
 
@@ -19,8 +21,7 @@
   }
 
   &__logo {
-    width: 15rem;
-    height: auto;
+    max-width: 100%;
   }
 
   &__navigation {
