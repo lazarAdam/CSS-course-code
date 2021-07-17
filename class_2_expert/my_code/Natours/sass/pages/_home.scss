@@ -6,13 +6,13 @@
   margin-top: -30vh;
   clip-path: ellipse(100% 59% at 50% 41%);
 
-  @include respond(tab-land){
+  @include respond(tab-land) {
     padding-top: 20rem;
     padding-bottom: 10rem;
   }
 
 
-  @include respond(tab-port){
+  @include respond(tab-port) {
     padding-top: 15rem;
     padding-bottom: 10rem;
   }
@@ -36,20 +36,13 @@
   clip-path: ellipse(100% 59% at 50% 41%);
   //clip-path: polygon(0 10% ,100% 0, 100% 90%, 0 100% );
 
-  //transform: skewY(-7deg);
-  //
-  //& > * {
-  //  transform: skewY(7deg);
-  //}
-
   //clip-path: ellipse(50.42% 45.19% at 48.41% 50.94%);
-
 
   @include respond(tab-port) {
     padding: 20rem 0;
-    //clip-path: ellipse(100% 80vh at 50% 0%);
-
-
+  }
+  @include respond(phone){
+    clip-path: ellipse(125% 59% at 50% 41%);
   }
 }
 
@@ -60,7 +53,7 @@
   padding: 25rem 0 0 0;
   margin-top: -11rem;
 
-  &__ellipses{
+  &__ellipses {
     background-color: $color-grey-light-1;
     clip-path: ellipse(60% 100% at 50% 0%);
     margin-bottom: -11rem;
@@ -69,13 +62,12 @@
     z-index: 7;
 
 
-    @include respond(tab-port){
+    @include respond(tab-port) {
       height: 10rem;
       margin-bottom: -8rem;
-      clip-path: ellipse(53% 100% at 50% 0%);
+      clip-path: ellipse(60% 100% at 50% 0%);
     }
   }
-
 
 
   @include respond(tab-port) {
@@ -88,30 +80,46 @@
   position: relative;
   z-index: 6;
   clip-path: ellipse(100% 93.1% at 50% 7%);
-  //background-color: #7c31af;
+  background-color: #7c31af;
   @include respond(tab-port) {
     padding: 10rem 0;
+  }
+  @include respond(phone){
+    clip-path: ellipse(125% 93.1% at 50% 7%);
   }
 
 }
 
 .section-book {
-  margin-top:-15rem;
+  margin-top: -15rem;
   padding-bottom: 25rem;
   // since we have a negative margin on the top we need 15rem + 25rem to make the padding equal to bottom
-  padding-top:40rem;
-  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+  padding-top: 40rem;
+  //background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+  background-image: linear-gradient(
+                  to left,
+                  rgba($color-primary-dark,1),
+                  rgba($color-primary, 1),
+                  rgba($color-primary-light,1));
   position: relative;
   z-index: 5;
+
+  clip-path: ellipse(90% 56% at 50% 44%);
+
+  @include respond(phone){
+    clip-path: ellipse(100% 55% at 50% 44%);
+  }
 }
 
 .book {
   background-image: linear-gradient(90deg,
-          rgba($color-grey-dark-2, .65) 0%,
-          rgba($color-grey-dark-2, .65) 50%,
-          transparent 50%),
+          rgba($color-grey-dark-3, .65) 0%,
+          rgba($color-grey-dark-3, .65) 50%,
+          transparent 50%
+  ),
   url("../img/bg-6.jpg");
-  background-position: 0%;
+
+  background-position: center;
 
   background-size: cover;
   border-radius: 3px;
@@ -119,27 +127,29 @@
 
   @include respond(tab-land) {
 
-    background-image: linear-gradient(105deg,
-            rgba($color-white, .9) 0%,
-            rgba($color-white, .9) 60%,
-            transparent 60%),
-    url("../img/nat-10.jpg");
+    margin: 0 5rem;
   }
 
   @include respond(tab-port) {
 
+    margin: 0;
     background-image: linear-gradient(to right,
-            rgba($color-white, .9) 0%,
-            rgba($color-white, .9) 100%),
-    url("../img/nat-10.jpg");
+            rgba($color-grey-dark-3, .5) 0%,
+            rgba($color-grey-dark-3, .5) 100%
+    ),
+    url("../img/bg-6.jpg");
+
+    background-position: center;
+
   }
+
 
   &__form {
     width: 50%;
-    padding: 6rem;
+    padding: 6rem 4rem;
 
     @include respond(tab-land) {
-      width: 65%;
+      width: 45%;
     }
 
     @include respond(tab-port) {

@@ -1,52 +1,25 @@
-.btn{
-  &,// any element like <div>, <button> ...
-  &:link,// element <a> use :link and :visited
-  &:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    display: inline-block;
-    border-radius: 20rem;
-    transition: all .2s;
-    position: relative;
-    font-size: $default-font-size;
+.btn-scalable {
 
-    //change for thr <button> element
-
-    border: none;
-    cursor: pointer;
-  }
-
-  &:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba($color-black, .2);
-  }
-
-  &:active,
-  &:focus{
-    outline: none;
-    transform: translateY(-1px);
-    box-shadow: 0 .5rem 1rem rgba($color-black, .2);
-  }
+  @include btnBasic;
 
   &--white {
     background-color: #fff;
     color: $color-grey-dark;
   }
+
   &--white::after {
     background-color: $color-white;
   }
 
-  &--green{
+  &--colorful {
     background-color: $color-primary;
     color: $color-white;
   }
 
-  &--green::after{
+  &--colorful::after {
     background-color: $color-primary;
     color: $color-white;
   }
-
   &::after {
     content: "";
     display: inline-block;
@@ -74,10 +47,34 @@
 
 }
 
-.btn-text{
+
+.btn-fluid{
+
+  @include btnBasic;
+
+  &--colorful{
+    background: #3CBDE8;
+  }
+
+  &--white{
+    background: lightseagreen;
+    color: black;
+
+    clip-path: circle(10% at 0% 0%);
+  }
+
+  &--animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+  }
+
+
+}
+
+.btn-text {
 
   &:link,
-  &:visited{
+  &:visited {
     font-size: $default-font-size;
     color: $color-primary;
     display: inline-block;
@@ -86,16 +83,18 @@
     padding: 3px;
   }
 
-  &:hover{
+  &:hover {
     background-color: $color-primary;
     color: $color-white;
-    box-shadow: 0 1rem 2rem rgba($color-black,.15);
+    box-shadow: 0 1rem 2rem rgba($color-black, .15);
     transform: translateY(-2px);
     transition: all .2s;
   }
 
-  &:active{
-    box-shadow: 0 0.5rem 2rem rgba($color-black,.15);
+  &:active {
+    box-shadow: 0 0.5rem 2rem rgba($color-black, .15);
     transform: translateY(0);
   }
+
+
 }

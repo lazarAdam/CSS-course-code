@@ -1,9 +1,17 @@
-
-.header__logo-box:hover {
-  animation: moveInLeft ease-out 1s;
+.header__logo-wrapper,
+{
+  animation: moveInRight ease-out 1s;
 }
 
-.moving-text{
+ //on logo wrapper hover select the the logo inside and animate
+ //this fix flickering when using hover directly on .header__logo which is an img tag
+//.header__logo-wrapper:hover .header__logo{
+//  animation: moveInRight ease-out 1s;
+//}
+
+
+
+.moving-text {
   animation: movingText 20s linear infinite;
 }
 
@@ -64,13 +72,13 @@
 
 @keyframes movingText {
 
-  0%{
+  0% {
 
     transform: translateX(-95vw);
 
   }
 
-  100%{
+  100% {
 
     transform: translateX(95vw);
   }

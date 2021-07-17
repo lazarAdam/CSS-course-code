@@ -1,3 +1,14 @@
+//.popup::before{
+//  content: '';
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+//  right: 0;
+//  bottom: 0;
+//  //background: inherit;
+//  filter: blur(200px);
+//}
+
 .popup {
   top: 0;
   left: 0;
@@ -5,10 +16,11 @@
   width: 100%;
   height: 100%;
   z-index: 3000;
-  background-color: rgba($color-black, .8);
+  background-color: rgba($color-black, .7);
   opacity: 0;
   visibility: hidden;
   transition: all .3s;
+  overflow: hidden;
 
 
   // graceful browser degradation
@@ -17,8 +29,10 @@
 
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: rgba($color-black, .3);
+    //background-color: rgba($color-black, .8);
+
   }
+
 
   &__content {
     @include absCenter;
@@ -46,6 +60,8 @@
       display: block;
       width: 100%;
       text-align: center;
+
+
     }
 
   }
@@ -57,6 +73,7 @@
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
+    text-align: center;
 
     @include respond(tab-port){
 
@@ -70,20 +87,22 @@
 
   &__img {
     display: block;
-    width: 100%;
+    width: 39rem;
+    height: 28rem;
+    object-fit: cover;
 
     @include respond(tab-port){
 
       display: inline-block;
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
       object-fit: cover;
       margin: 1rem;
     }
 
     @include respond(phone){
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
 
     }
   }

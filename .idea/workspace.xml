@@ -4,8 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="">
+    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="1\24\21">
+      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/logo-5-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/logo-5-small-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/logo-5-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/logo-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/logo-w.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/styles_test.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/styles_test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_story.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,18 +90,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Natours\img" />
       <recent name="C:\Users\Home\Desktop\MY DATA\Programs-code\Courses\CSS 2021 COURSE\CSS-course-code\class_2_expert\my_code\Natours\img" />
       <recent name="C:\Users\Home\Desktop\MY DATA\Programs-code\Courses\CSS 2021 COURSE\CSS-course-code\class_2_expert\my_code\Natours\img\SVG" />
       <recent name="C:\Users\Home\Desktop\MY DATA\Programs&amp;code\Courses\CSS 2021 COURSE\CSS-C-2021\class_2_expert\my_code\Nexter" />
       <recent name="D:\Courses\CSS_the Complete Guide 2021\CSS-C-2021\class_2_expert\my_code\Trillo" />
-      <recent name="D:\Courses\CSS_the Complete Guide 2021\CSS-C-2021\class_2_expert\my_code\Natours\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Home\Desktop\MY DATA\Programs-code\Courses\CSS 2021 COURSE\CSS-course-code\class_2_expert\my_code\Natours\img" />
       <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Natours\img" />
+      <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\original_code\Natours\final-after-S06\img" />
+      <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Nexter\img" />
+      <recent name="C:\Users\Home\Desktop\MY DATA\Programs-code\Courses\CSS 2021 COURSE\CSS-course-code\class_2_expert\my_code\Natours\img" />
       <recent name="C:\Users\Home\Desktop\MY DATA\Programs-code\Courses\CSS 2021 COURSE\CSS-course-code\class_2_expert\my_code\Natours\img\models" />
-      <recent name="C:\Users\Home\Desktop\MY DATA\Programs&amp;code\Courses\CSS 2021 COURSE\CSS-C-2021\class_2_expert\my_code\Trillo\img" />
-      <recent name="D:\Courses\CSS_the Complete Guide 2021\CSS-C-2021\class_2_expert\my_code" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -182,7 +204,12 @@
       <workItem from="1625316484449" duration="28700000" />
       <workItem from="1625538477995" duration="38000" />
       <workItem from="1625842570943" duration="15350000" />
-      <workItem from="1626525875556" duration="478000" />
+      <workItem from="1626117841132" duration="6016000" />
+      <workItem from="1626186878857" duration="25613000" />
+      <workItem from="1626272207885" duration="16971000" />
+      <workItem from="1626299309861" duration="11898000" />
+      <workItem from="1626358681511" duration="20593000" />
+      <workItem from="1626446841724" duration="8779000" />
     </task>
     <task id="LOCAL-00001" summary="1\24\21">
       <created>1611536612054</created>
@@ -359,14 +386,7 @@
       <option name="project" value="LOCAL" />
       <updated>1624837577831</updated>
     </task>
-    <task id="LOCAL-00026" summary="1\24\21">
-      <created>1626049512333</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1626049512333</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
