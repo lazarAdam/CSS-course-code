@@ -35,10 +35,10 @@
     cursor: pointer;
   }
 
-  &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba($color-black, .2);
-  }
+  //&:hover {
+  //  transform: translateY(-3px);
+  //  box-shadow: 0 1rem 2rem rgba($color-black, .2);
+  //}
 
   &:active,
   &:focus {

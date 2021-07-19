@@ -207,10 +207,6 @@ body {
   border: none;
   cursor: pointer; }
 
-.btn-scalable:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
-
 .btn-scalable:active, .btn-scalable:focus {
   outline: none;
   transform: translateY(-1px);
@@ -251,38 +247,45 @@ body {
   animation: moveInBottom .5s ease-out .75s;
   animation-fill-mode: backwards; }
 
-.btn-fluid, .btn-fluid:link, .btn-fluid:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 1.5rem 4rem;
-  display: inline-block;
-  border-radius: 20rem;
-  transition: all .2s;
-  position: relative;
-  font-size: 1.6rem;
-  border: none;
-  cursor: pointer; }
-
-.btn-fluid:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
-
-.btn-fluid:active, .btn-fluid:focus {
-  outline: none;
-  transform: translateY(-1px);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
-
-.btn-fluid--colorful {
-  background: #3CBDE8; }
-
-.btn-fluid--white {
-  background: lightseagreen;
-  color: black;
-  clip-path: circle(10% at 0% 0%); }
-
-.btn-fluid--animated {
-  animation: moveInBottom .5s ease-out .75s;
-  animation-fill-mode: backwards; }
+.btn-fluid {
+  position: relative; }
+  .btn-fluid-front, .btn-fluid-back {
+    color: black; }
+    .btn-fluid-front, .btn-fluid-front:link, .btn-fluid-front:visited, .btn-fluid-back, .btn-fluid-back:link, .btn-fluid-back:visited {
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 1.5rem 4rem;
+      display: inline-block;
+      border-radius: 20rem;
+      transition: all .2s;
+      position: relative;
+      font-size: 1.6rem;
+      border: none;
+      cursor: pointer; }
+    .btn-fluid-front:active, .btn-fluid-front:focus, .btn-fluid-back:active, .btn-fluid-back:focus {
+      outline: none;
+      transform: translateY(-1px);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  .btn-fluid-front {
+    background: white; }
+    .btn-fluid-front:hover ~ .btn-fluid-back {
+      clip-path: circle(120% at 0% 0%); }
+  .btn-fluid-back {
+    background: yellow;
+    clip-path: circle(0% at 3% 25%);
+    position: absolute !important;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 1s ease-in-out !important; }
+    .btn-fluid-back:hover {
+      clip-path: circle(120% at 0% 0%); }
+  .btn-fluid--white {
+    background: lightseagreen;
+    color: black;
+    clip-path: circle(10% at 0% 0%); }
+  .btn-fluid--animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;

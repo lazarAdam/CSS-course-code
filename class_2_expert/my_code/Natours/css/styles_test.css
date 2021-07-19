@@ -83,3 +83,9 @@
 /*    filter: blur(1px);*/
 /*}*/
 
+
+.btn-f,
+.btn-b{
+
+position:absolute;
+}
