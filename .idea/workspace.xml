@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="1\24\21">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,8 +185,7 @@
       <workItem from="1626272207885" duration="16971000" />
       <workItem from="1626299309861" duration="11898000" />
       <workItem from="1626358681511" duration="20593000" />
-      <workItem from="1626446841724" duration="8843000" />
-      <workItem from="1626494539979" duration="108000" />
+      <workItem from="1626446841724" duration="8779000" />
     </task>
     <task id="LOCAL-00001" summary="1\24\21">
       <created>1611536612054</created>
@@ -366,11 +363,11 @@
       <updated>1624837577831</updated>
     </task>
     <task id="LOCAL-00026" summary="1\24\21">
-      <created>1626468669261</created>
+      <created>1626653718054</created>
       <option name="number" value="00026" />
       <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1626468669261</updated>
+      <updated>1626653718054</updated>
     </task>
     <option name="localTasksCounter" value="27" />
     <servers />
