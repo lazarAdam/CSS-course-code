@@ -2,9 +2,24 @@
 
   @include btnBasic;
 
+
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($color-black, .2);
+  }
+
+  &:active,
+  &:focus {
+    outline: #2ddf5c;
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+  }
+
+
   &--white {
     background-color: #fff;
-    color: $color-grey-dark;
+    color: black;
   }
 
   &--white::after {
@@ -12,12 +27,12 @@
   }
 
   &--colorful {
-    background-color: $color-primary;
+    background: linear-gradient(to top right, $color-primary-dark,$color-primary,$color-primary-light);
     color: $color-white;
   }
 
   &--colorful::after {
-    background-color: $color-primary;
+    background: linear-gradient(to top right, $color-primary-dark,$color-primary,$color-primary-light);
     color: $color-white;
   }
 
@@ -32,6 +47,7 @@
     left: 0;
     z-index: -1;
     transition: all .4s;
+
   }
 
 
@@ -49,47 +65,67 @@
 }
 
 
-
 .btn-fluid {
   position: relative;
 
   &-front,
   &-back {
-  @include btnBasic;
-  color: black;
+    @include btnBasic;
+    color: black;
+
   }
 
-  &-front{
+  &-front {
     background: white;
+    box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
+    @include respond(tab-land){
+      color: white;
+      background: linear-gradient(
+                      to left,
+                      rgba($color-primary-dark, 1),
+                      rgba($color-primary, 1),
+                      rgba($color-primary-light, 1));
+    }
+
 
     // When the front btn is hovered select the back btn and set the circle size
     // technically the back button comes on top since it comes last in the doc and both back and front
     // have the same z-index. But by  setting the clip-path on the back btn to 0s, this will hide all its content
     // and then when the clip path is set to  circle(120% at 0% 0%); the back btn will be shown along with its content
-    &:hover ~ .btn-fluid-back{
-      clip-path: circle(120% at 0% 0%);
+    &:hover ~ .btn-fluid-back {
 
+
+      clip-path: circle(100% at 5% 50%);
+      color: white;
     }
   }
 
-  &-back{
-    background: yellow;
-    clip-path: circle(0% at 3% 25%);
-    position: absolute!important;
+  &-back {
+    background: linear-gradient(
+                    to left,
+                    rgba($color-primary-dark, 1),
+                    rgba($color-primary, 1),
+                    rgba($color-primary-light, 1));
+    clip-path: circle(0% at 3% 15%);
+    position: absolute !important;
     left: 50%;
     transform: translateX(-50%);
-    transition: all 1s ease-in-out !important;
+    transition: all .7s ease-in-out !important;
 
     // keep the clip path value the same while the back btn is hovered.
-    &:hover{
+    &:hover {
+      clip-path: circle(100% at 5% 50%);
+      color: white;
 
-        clip-path: circle(120% at 0% 0%);
     }
 
   }
 
-
-
+  &--animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+  }
 
   //&--colorful {
   //  background: $color-white;
@@ -122,17 +158,12 @@
   //}
 
 
-  &--white {
-    background: lightseagreen;
-    color: black;
-
-    clip-path: circle(10% at 0% 0%);
-  }
-
-  &--animated {
-    animation: moveInBottom .5s ease-out .75s;
-    animation-fill-mode: backwards;
-  }
+  //&--white {
+  //  background: lightseagreen;
+  //  color: black;
+  //
+  //  clip-path: circle(10% at 0% 0%);
+  //}
 
 
 }

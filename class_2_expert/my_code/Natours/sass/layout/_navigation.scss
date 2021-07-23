@@ -16,6 +16,7 @@
     text-align: center;
     cursor: pointer;
 
+
     @include respond(tab-port) {
 
       top: 4rem;
@@ -30,6 +31,36 @@
 
   }
 
+  .header__logo-wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    transition:
+            all .7s cubic-bezier(0.83, 0, 0.17, 1),
+            // transition specific to border
+            border-top 1s ease-in-out,
+            border-right 1.5s ease-in-out .05s;
+
+
+    &:hover{
+      border-top: 3px solid $color-grey-dark-2;
+      border-right: 3px solid $color-grey-dark-2;
+    }
+  }
+
+  .header__logo {
+    height: 9rem;
+  }
+
+
   &__background {
     visibility: hidden;
     height: 5rem;
@@ -38,9 +69,9 @@
     position: fixed;
     right: 8rem;
     top: 8rem;
-    background-image: radial-gradient($color-primary-light-2,$color-primary-dark);
+    background-image: radial-gradient($color-primary-light-2, $color-primary-dark);
     z-index: 1000;
-    transition:all .8s cubic-bezier(0.83, 0, 0.17, 1);
+    transition: all .8s cubic-bezier(0.83, 0, 0.17, 1);
 
     @include respond(tab-port) {
 
@@ -118,22 +149,6 @@
   }
 
 
-  .header__logo-wrapper {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-    opacity: 1;
-    transition: all .7s cubic-bezier(0.83, 0, 0.17, 1);
-
-  }
-
-  .header__logo {
-    height: 9rem;
-
-  }
-
 
   //FUNCTIONALITY
   &__checkbox:checked ~ &__background {
@@ -169,7 +184,7 @@
       content: '';
       position: absolute;
       left: 0;
-      top:0;
+      top: 0;
       // set the opacity to 0 so we can include fading transition when it is set back to 1 in the code bellow
       opacity: 0;
       transition: all .7s cubic-bezier(0.83, 0, 0.17, 1);
@@ -195,7 +210,6 @@
   //
   //  top: 1.2rem
   //}
-
 
 
   // no need for this line since we already set the entire icon to  invisible
@@ -228,11 +242,10 @@
     transform: rotate(135deg); // rotate the other bar in the positive direction
 
 
-
   }
 
   // animate the logo-wrapper part by moving it to right out of the screen
-  &__checkbox:checked + &__button .header__logo-wrapper{
+  &__checkbox:checked + &__button .header__logo-wrapper {
 
     opacity: 0;
     transform: translateX(20rem);
