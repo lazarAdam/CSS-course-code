@@ -1,0 +1,43 @@
+
+/**
+stacking context playground
+
+    // The containing block which using this class must have a z-index
+    // this is important because it defies the stacking context where lives child-1,2 on the z axis
+    // setting z-index -1 on children and parent to 1 will not push the elms behind the parent
+    // although the content in the parent will will be on top of the before element which will result in background
+    // being bellow the content that doesn't have a defined background like for example a <p> will show its text
+         // on top of ::before
+ */
+.parent-test{
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    background: gold;
+    z-index: 1;
+    color: white;
+
+
+}
+
+.child-1{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background: black;
+    z-index: -1;
+
+}
+
+.child-2{
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 50%;
+    height: 50%;
+    background: red;
+    z-index: -1;
+}
