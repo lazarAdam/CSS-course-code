@@ -5,7 +5,7 @@ $color-primary-light: #fcb045;
 $color-primary-dark: #7c31af;
 $color-primary-light-2: #a922b3;
 
-$color-secondary-light: #fcb045;;
+$color-secondary-light: #fcb045;
 $color-secondary-dark: #ff7730;
 
 $color-tertiary-light: #2998ff;
@@ -21,6 +21,17 @@ $color-grey-light-2: #eee;
 $color-white: #ffffff;
 
 
+// gradients
+
+:root {
+  --gradient-primary: linear-gradient(to right,
+          rgba(252,176,69, 1),
+          rgba(253,29,20, 1),
+          rgba(169,34,179, 1)
+  );
+
+}
+
 //font
 
 $default-font-size: 1.6rem;
@@ -31,7 +42,5 @@ $grid-width: 114rem;
 $grid-width-mid: 50rem;
 $gutter-vertical: 8rem;
 $gutter-vertical-small: 6rem;
-$gutter-horizontal: 6rem
-
-// cool gradient
+$gutter-horizontal: 6rem// cool gradient
 //linear-gradient(to bottom right, #3db1ff 0%, #00e3aa 100%);

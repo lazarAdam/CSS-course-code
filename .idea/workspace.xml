@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="1\24\21">
+    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_info-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/components/_info-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/playground/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/playground/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,9 +210,7 @@
       <workItem from="1626963092370" duration="21933000" />
       <workItem from="1627054840925" duration="5000" />
       <workItem from="1627054860173" duration="10313000" />
-      <workItem from="1627067090728" duration="5157000" />
-      <workItem from="1627188408486" duration="473000" />
-      <workItem from="1627338075652" duration="65000" />
+      <workItem from="1627067090728" duration="5125000" />
     </task>
     <task id="LOCAL-00001" summary="1\24\21">
       <created>1611536612054</created>
@@ -383,14 +394,7 @@
       <option name="project" value="LOCAL" />
       <updated>1626653718054</updated>
     </task>
-    <task id="LOCAL-00027" summary="1\24\21">
-      <created>1627073582819</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1627073582819</updated>
-    </task>
-    <option name="localTasksCounter" value="28" />
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

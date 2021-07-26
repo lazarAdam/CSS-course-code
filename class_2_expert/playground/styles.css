@@ -1,13 +1,13 @@
 
 /**
-stacking context playground
+stacking context demo
 
     // The containing block which using this class must have a z-index
     // this is important because it defies the stacking context where lives child-1,2 on the z axis
     // setting z-index -1 on children and parent to 1 will not push the elms behind the parent
     // although the content in the parent will will be on top of the before element which will result in background
     // being bellow the content that doesn't have a defined background like for example a <p> will show its text
-         // on top of ::before
+    // on top of ::before
  */
 .parent-test{
     position: relative;

@@ -79,7 +79,7 @@
   position: relative;
   z-index: 6;
   clip-path: ellipse(100% 93.1% at 50% 7%);
-  background-color: #7c31af;
+  //background-color: #7c31af;
   @include respond(tab-port) {
     padding: 10rem 0;
   }

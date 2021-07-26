@@ -15,6 +15,9 @@
     z-index: 2000;
     text-align: center;
     cursor: pointer;
+    outline: none;
+
+
 
 
     @include respond(tab-port) {
@@ -32,6 +35,8 @@
   }
 
   .header__logo-wrapper {
+
+    outline: none;
     display: inline-block;
     position: absolute;
     top: 0;
@@ -43,6 +48,7 @@
     border-radius: 50%;
     border-top: 3px solid transparent;
     border-right: 3px solid transparent;
+    animation: moveInRight 2.5s;
     transition:
             all .7s cubic-bezier(0.83, 0, 0.17, 1),
             // transition specific to border
@@ -54,6 +60,12 @@
       border-top: 3px solid $color-grey-dark-2;
       border-right: 3px solid $color-grey-dark-2;
     }
+
+
+      @include respond(tab-land){
+        // two animations first move the icon to the right in 3s then run the moonAnimation right after 1.5s for 5s
+        animation: moveInRight 3s,moonAnimation 5s 1.5s forwards;
+      }
   }
 
   .header__logo {
