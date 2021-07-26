@@ -17,11 +17,27 @@ ORDER: Base + typography > general layout + grid > page layout > components
 1em = 16px em being used instead of rem in breakpoints because em amd rems are not effected by the set root font setting
 and always refer to the default browser font size also rems don't work well with media queries on some browsers.
  */
-.header__logo-wrapper {
-  animation: moveInRight ease-out 1s; }
+:root {
+  --gradient-primary: linear-gradient(to right,
+          rgba(252,176,69, 1),
+          rgba(253,29,20, 1),
+          rgba(169,34,179, 1)
+  ); }
 
 .moving-text {
   animation: movingText 20s linear infinite; }
+
+@keyframes moonAnimation {
+  0% {
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent; }
+  50% {
+    border-top: 3px solid #999999; }
+  80% {
+    border-right: 3px solid #999999; }
+  100% {
+    border-top: 3px solid #999999;
+    border-right: 3px solid #999999; } }
 
 @keyframes moveInLeft {
   0% {
@@ -59,12 +75,145 @@ and always refer to the default browser font size also rems don't work well with
   100% {
     transform: translateX(95vw); } }
 
+/**
+  code for animated drawn lines using borders of ::after and ::before elements
+ */
+.draw-setup::before, .draw-setup::after {
+  content: '';
+  position: absolute;
+  border: 4px solid transparent;
+  width: 0;
+  height: 0; }
+
+.draw-setup:hover::before, .draw-setup:hover::after {
+  width: 100%;
+  height: 100%; }
+
+.draw-rect::before {
+  top: 0;
+  left: 0; }
+
+.draw-rect::after {
+  bottom: 0;
+  right: 0; }
+
+.draw-rect:hover::before {
+  border-top-color: white;
+  border-right-color: white;
+  transition: width 1s ease-out, height 1s ease-out 1s; }
+
+.draw-rect:hover::after {
+  border-bottom-color: black;
+  border-left-color: black;
+  transition: border-color 0s ease-out 2s, width 1s ease-out 2s, height 1s ease-out 3s; }
+
+.draw-meet::before, .draw-meet::after {
+  top: 0;
+  left: 0; }
+
+.draw-meet:hover::before {
+  border-top-color: white;
+  border-right-color: white;
+  transition: width 1s ease-out, height 1s ease-out 1s; }
+
+.draw-meet:hover::after {
+  border-bottom-color: black;
+  border-left-color: black;
+  transition: height 1s ease-out, width 1s ease-out 1s; }
+
+.draw-center::before {
+  top: 50%;
+  left: 0; }
+
+.draw-center::after {
+  left: 50%;
+  top: 0; }
+
+.draw-center:hover::before {
+  border-left-color: black;
+  border-right-color: black;
+  top: 0;
+  transition: height .5s, top .5s; }
+
+.draw-center:hover::after {
+  border-top-color: black;
+  border-bottom-color: black;
+  left: 0;
+  transition: width .5s, left .5s; }
+
+.draw-underline::before {
+  left: 50%;
+  bottom: 0;
+  transition: width .5s, border-bottom-color .5s, left .5s; }
+
+.draw-underline:hover::before {
+  border-bottom-color: black;
+  left: 0; }
+
+/**
+ code for none-border single line drawing method, using a single ::before element and adjusting height and width
+ */
+.draw-setup-2 {
+  position: relative; }
+  .draw-setup-2::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background: #eee;
+    /**
+  placing the transition  prop on the ::before will include transitions when hovering and when the mouse leaves ::before
+  For example the width prop goose from 0 to 100% state on hover and from 100% to 0% state on mouseleave
+
+ */
+    transition: all .5s; }
+  .draw-setup-2__cent-ul::before {
+    left: 50%;
+    bottom: 0; }
+  .draw-setup-2__cent-ul:hover::before {
+    width: 100%;
+    left: 0; }
+  .draw-setup-2__bottom-l-to-r::before {
+    left: 0;
+    bottom: 0; }
+  .draw-setup-2__bottom-l-to-r:hover::before {
+    width: 100%; }
+  .draw-setup-2__btm-r-to-l::before {
+    right: 0;
+    bottom: 0; }
+  .draw-setup-2__btm-r-to-l:hover::before {
+    width: 100%; }
+  .draw-setup-2__btm-l-r-r::before {
+    right: 0;
+    bottom: 0; }
+  .draw-setup-2__btm-l-r-r:hover::before {
+    width: 100%;
+    left: 0; }
+  .draw-setup-2__top-to-btm {
+    overflow: hidden; }
+    .draw-setup-2__top-to-btm::before {
+      width: 100%;
+      left: 0;
+      top: -3px; }
+    .draw-setup-2__top-to-btm:hover::before {
+      top: calc(100% - 3px); }
+  .draw-setup-2__fill {
+    z-index: 1; }
+    .draw-setup-2__fill::before {
+      left: 0;
+      top: 0;
+      height: 100%;
+      z-index: -1; }
+    .draw-setup-2__fill:hover::before {
+      width: 100%; }
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
 
 html {
   font-size: 62.5%;
@@ -140,7 +289,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #7c31af, #fd1d1d, #fcb045);
+  background-image: var(--gradient-primary);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -286,6 +435,9 @@ body {
     .btn-fluid-back:hover {
       clip-path: circle(100% at 5% 50%);
       color: white; }
+    @media only screen and (max-width: 75em) {
+      .btn-fluid-back {
+        display: none !important; } }
   .btn-fluid--animated {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards; }
@@ -663,7 +815,7 @@ body {
     border-bottom: 3px solid transparent;
     width: 90%;
     display: block;
-    transition: all .3s; }
+    transition: all .5s; }
     @media only screen and (max-width: 75em) {
       .form__input {
         width: 100%; } }
@@ -829,12 +981,14 @@ body {
     color: #fd1d1d; }
 
 .info-card {
+  border-radius: 10px;
   background: #1cf1cf;
   color: black;
   width: 35rem;
   padding: 1rem;
   text-align: center;
   margin: 0 auto;
+  clip-path: circle(10% at 92% 20%);
   transition: all .3s ease-in-out;
   position: relative;
   vertical-align: middle; }
@@ -852,138 +1006,6 @@ body {
     background: #3ae4ff; }
   .info-card:hover span {
     color: transparent; }
-
-/**
-  code for animated slow drawing of border using ::after and ::before
- */
-.draw-setup::before, .draw-setup::after {
-  content: '';
-  position: absolute;
-  border: 4px solid transparent;
-  width: 0;
-  height: 0; }
-
-.draw-setup:hover::before, .draw-setup:hover::after {
-  width: 100%;
-  height: 100%; }
-
-.draw-rect::before {
-  top: 0;
-  left: 0; }
-
-.draw-rect::after {
-  bottom: 0;
-  right: 0; }
-
-.draw-rect:hover::before {
-  border-top-color: white;
-  border-right-color: white;
-  transition: width 1s ease-out, height 1s ease-out 1s; }
-
-.draw-rect:hover::after {
-  border-bottom-color: black;
-  border-left-color: black;
-  transition: border-color 0s ease-out 2s, width 1s ease-out 2s, height 1s ease-out 3s; }
-
-.draw-meet::before, .draw-meet::after {
-  top: 0;
-  left: 0; }
-
-.draw-meet:hover::before {
-  border-top-color: white;
-  border-right-color: white;
-  transition: width 1s ease-out, height 1s ease-out 1s; }
-
-.draw-meet:hover::after {
-  border-bottom-color: black;
-  border-left-color: black;
-  transition: height 1s ease-out, width 1s ease-out 1s; }
-
-.draw-center::before {
-  top: 50%;
-  left: 0; }
-
-.draw-center::after {
-  left: 50%;
-  top: 0; }
-
-.draw-center:hover::before {
-  border-left-color: black;
-  border-right-color: black;
-  top: 0;
-  transition: height .5s, top .5s; }
-
-.draw-center:hover::after {
-  border-top-color: black;
-  border-bottom-color: black;
-  left: 0;
-  transition: width .5s, left .5s; }
-
-.draw-underline::before {
-  left: 50%;
-  bottom: 0;
-  transition: width .5s, border-bottom-color .5s, left .5s; }
-
-.draw-underline:hover::before {
-  border-bottom-color: black;
-  left: 0; }
-
-/**
- this is a none-border single line drawing method, using a single ::before element
- */
-.draw-setup-2 {
-  position: relative; }
-  .draw-setup-2::before {
-    content: '';
-    position: absolute;
-    height: 3px;
-    width: 0;
-    background: black;
-    /**
-  placing the transition  prop on the ::before will include transitions when hovering and when the mouse leaves ::before
-  For example the width prop goose from 0 to 100% state on hover and from 100% to 0% state on mouseleave
-
- */
-    transition: all .5s; }
-  .draw-setup-2__cent-ul::before {
-    left: 50%;
-    bottom: 0; }
-  .draw-setup-2__cent-ul:hover::before {
-    width: 100%;
-    left: 0; }
-  .draw-setup-2__bottom-l-to-r::before {
-    left: 0;
-    bottom: 0; }
-  .draw-setup-2__bottom-l-to-r:hover::before {
-    width: 100%; }
-  .draw-setup-2__btm-r-to-l::before {
-    right: 0;
-    bottom: 0; }
-  .draw-setup-2__btm-r-to-l:hover::before {
-    width: 100%; }
-  .draw-setup-2__btm-l-r-r::before {
-    right: 0;
-    bottom: 0; }
-  .draw-setup-2__btm-l-r-r:hover::before {
-    width: 100%;
-    left: 0; }
-  .draw-setup-2__top-bt {
-    overflow: hidden; }
-    .draw-setup-2__top-bt::before {
-      width: 100%;
-      left: 0;
-      top: -3px; }
-    .draw-setup-2__top-bt:hover::before {
-      top: calc(100% - 3px); }
-  .draw-setup-2__fill {
-    z-index: 1; }
-    .draw-setup-2__fill::before {
-      left: 0;
-      top: 0;
-      height: 100%;
-      z-index: -1; }
-    .draw-setup-2__fill:hover::before {
-      width: 100%; }
 
 .header {
   height: 100vh;
@@ -1069,6 +1091,9 @@ body {
   font-size: 1.4rem;
   color: #f7f7f7;
   margin-top: -12rem; }
+  @media only screen and (max-width: 75em) {
+    .footer {
+      padding: 11rem 0; } }
   .footer__logo-box {
     text-align: center;
     margin-bottom: 1rem; }
@@ -1099,9 +1124,13 @@ body {
     display: inline-block;
     transition: all .2s; }
   .footer__link:hover, .footer__link:active {
-    color: #fd1d1d;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
-    transform: rotate(5deg) scale(1.3); }
+    color: transparent;
+    background-image: var(--gradient-primary);
+    -webkit-background-clip: text;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
+  @media only screen and (max-width: 75em) {
+    .footer__link {
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); } }
   .footer__copyright {
     border-top: 1px solid #777777;
     padding-top: 2rem;
@@ -1128,7 +1157,8 @@ body {
     border-radius: 50%;
     z-index: 2000;
     text-align: center;
-    cursor: pointer; }
+    cursor: pointer;
+    outline: none; }
     @media only screen and (max-width: 56.25em) {
       .navigation__button {
         top: 4rem;
@@ -1138,6 +1168,7 @@ body {
         top: 3rem;
         right: 3rem; } }
   .navigation .header__logo-wrapper {
+    outline: none;
     display: inline-block;
     position: absolute;
     top: 0;
@@ -1149,10 +1180,14 @@ body {
     border-radius: 50%;
     border-top: 3px solid transparent;
     border-right: 3px solid transparent;
+    animation: moveInRight 2.5s;
     transition: all 0.7s cubic-bezier(0.83, 0, 0.17, 1), border-top 1s ease-in-out, border-right 1.5s ease-in-out 0.05s; }
     .navigation .header__logo-wrapper:hover {
       border-top: 3px solid #999999;
       border-right: 3px solid #999999; }
+    @media only screen and (max-width: 75em) {
+      .navigation .header__logo-wrapper {
+        animation: moveInRight 3s,moonAnimation 5s 1.5s forwards; } }
   .navigation .header__logo {
     height: 9rem; }
   .navigation__background {
@@ -1307,8 +1342,7 @@ body {
   padding: 15rem 0;
   position: relative;
   z-index: 6;
-  clip-path: ellipse(100% 93.1% at 50% 7%);
-  background-color: #7c31af; }
+  clip-path: ellipse(100% 93.1% at 50% 7%); }
   @media only screen and (max-width: 56.25em) {
     .section-stories {
       padding: 10rem 0; } }

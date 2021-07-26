@@ -120,6 +120,12 @@
 
     }
 
+    @include respond(tab-land){
+
+      // hide the back button on none hover displays
+      display: none !important;
+    }
+
   }
 
   &--animated {
