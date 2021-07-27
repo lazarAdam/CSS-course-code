@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/class_2_expert/my_code/Natours/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/class_2_expert/my_code/Natours/.firebase" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
