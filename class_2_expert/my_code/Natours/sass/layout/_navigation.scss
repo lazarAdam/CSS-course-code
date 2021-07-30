@@ -64,7 +64,7 @@
 
       @include respond(tab-land){
         // two animations first move the icon to the right in 3s then run the moonAnimation right after 1.5s for 5s
-        animation: moveInRight 3s,moonAnimation 5s 1.5s forwards;
+        animation: moveInRight 3s,moonAnimation 2.5s 1.5s forwards;
       }
   }
 
@@ -129,7 +129,6 @@
   }
 
   &__link {
-
     &:link,
     &:visited {
       display: inline-block;

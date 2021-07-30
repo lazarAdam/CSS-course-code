@@ -31,6 +31,10 @@
   background-position: 40% center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  &-btn{
+    display: none;
+  }
 }
 
   // responsive images with css when background-image is used. Conditions are separated with ','
