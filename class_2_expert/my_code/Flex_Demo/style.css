@@ -1,3 +1,27 @@
+/**
+    Notes on using  flex-direction:  column;
+
+    When you set up a flex-direction: column flex container, the height of your flex items is
+    controlled by the flex properties (grow, shrink, basis) not the width. as in flex-direction:row
+
+     The width of a flex item in a flex-direction: column flex container can either be dictated by the flex container,
+     or it can be left to the flex item to “decide” how big it wants to be.
+
+      In this case align-items: start,center,end ... and except for the value stretch
+      controls the width of your flex items. start, center, end ... expect for  stretch. This means that the items can size
+      themselves however they want, and they will be positioned at the start,end... side of your flex container.
+      so we are not controlling what size the child element should follow. for example will take it's full original size
+
+    The flex item that wraps the image doesn’t have its own size (it has the default width: auto), so your image’s width: 100%
+    can’t be resolved. In that case the image behaves as though it had width: auto, and basically renders at its full size.
+    Then, the flex item takes on that size, and that’s why it’s so big in your flex container.
+
+    You can force all your flex items to be the width of your column flex container by not setting align-items and
+    letting it use the default stretch(normal) value, which stretches the flex items to the width of the flex container.
+    Then your flex items have a specific size, and your child element inside of the flex item
+    with width: 100% can be resolved against that size.
+ */
+
 *{
     margin: 0;
     padding: 0;
@@ -8,25 +32,20 @@
 
     background-color: #ccc;
     padding: 10px;
-    height: 1000px;
+    min-height: 1000px;
     display: flex;
-    /* main axis is horizontal and cross axis is vertical*/
-    flex-direction: row;
 
-    /* main axis is vertical and cross axis is horizontal*/
-    /*flex-direction: column;*/
-    justify-content: space-between;/** along the main axis**/
-    align-items: flex-start; /**along the cross  axis**/
-    flex-wrap: wrap;
+    flex-direction:  column;
 
-    /* align the the entire content inside the flex container along the cross axis*/
-    align-content: center;
+    justify-content: center;/** along the main axis**/
+    align-items: stretch; /**along the cross  axis**/
+    flex-wrap: nowrap;
 
 }
 
 .item{
     background-color: #ff1b68;
-    padding: 40px;
+    /*padding: 40px;*/
     margin: 3px;
     color: #fff;
     font-size: 40px;
@@ -35,18 +54,32 @@
 
 .item--2{
     height: 200px;
-    /*flex-basis: 300px;*/
-    /*flex-shrink: 0;*/
-    flex: 0 0 300px;
+    flex: 0 0 auto;
 }
+
 
 .item--3{
     order: 1;
-    flex-grow: 1;
+    flex: 0 0 50%;
 }
+/*.item--3 img{*/
+
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*}*/
+
+
 
 .item--4{
+    position: relative;
+    min-height: 100vh;
+}
 
-    /*align-self: flex-end;*/
-    order: -1;
+.con{
+    width: 100%;
+    min-height: 100%;
+    background: darkcyan;
+    position: absolute;
+
 }
