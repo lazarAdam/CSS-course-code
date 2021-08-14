@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="1\24\21">
+    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Flex_Demo/1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_2_expert/my_code/Flex_Demo/2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/playground/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/playground/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_2_expert/playground/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/playground/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Flex_Demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Flex_Demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Flex_Demo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Flex_Demo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/styles_test.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/css/styles_test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/class_2_expert/my_code/Natours/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/class_2_expert/my_code/Flex_Demo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -74,18 +78,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Flex_Demo" />
       <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Natours\dist" />
       <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Natours\dist\css" />
       <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Natours\dist\img" />
       <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Natours\img" />
-      <recent name="C:\Users\Home\Desktop\MY DATA\Programs-code\Courses\CSS 2021 COURSE\CSS-course-code\class_2_expert\my_code\Natours\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Flex_Demo" />
       <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Natours\dist\img" />
       <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert" />
       <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Natours\img" />
       <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\original_code\Natours\final-after-S06\img" />
-      <recent name="C:\Users\LAZX\Udemy\CSS\class_2_expert\my_code\Nexter\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -215,8 +219,21 @@
       <workItem from="1627497888046" duration="10618000" />
       <workItem from="1627572250771" duration="5757000" />
       <workItem from="1627597723009" duration="3054000" />
-      <workItem from="1627655421780" duration="2521000" />
-      <workItem from="1628431356389" duration="40000" />
+      <workItem from="1627655421780" duration="2575000" />
+      <workItem from="1627917052732" duration="3054000" />
+      <workItem from="1627998433223" duration="5596000" />
+      <workItem from="1628089907286" duration="9600000" />
+      <workItem from="1628173006908" duration="13349000" />
+      <workItem from="1628207889283" duration="323000" />
+      <workItem from="1628216916282" duration="623000" />
+      <workItem from="1628259874745" duration="3589000" />
+      <workItem from="1628277950099" duration="8000" />
+      <workItem from="1628615376636" duration="222000" />
+      <workItem from="1628639863795" duration="1175000" />
+      <workItem from="1628692058391" duration="5706000" />
+      <workItem from="1628776325024" duration="179000" />
+      <workItem from="1628776538913" duration="23000" />
+      <workItem from="1628872521352" duration="1345000" />
     </task>
     <task id="LOCAL-00001" summary="1\24\21">
       <created>1611536612054</created>
@@ -414,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627404818863</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="1\24\21">
+      <created>1627678363658</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1627678363658</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,17 +1,17 @@
-/*.img-con{*/
-/*   width: 100%;*/
-/*    text-align: center;*/
-/*}*/
+.img-con{
+   width: 100%;
+    text-align: center;
+}
 
-/*img{*/
+img{
 
-/*    width: 500px;*/
-/*    height: 500px;*/
+    width: 500px;
+    height: 500px;
 
-/*    object-fit: cover;*/
+    object-fit: cover;
 
 
-/*}*/
+}
 
 
 /*.parent{*/
