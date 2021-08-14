@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 /**
 stacking context demo
@@ -20,9 +26,16 @@ stacking context demo
 
 }
 
+.parent-test-2{
+    position: relative;
+    width: 100%;
+    background: blueviolet;
+    top: 0;
+}
+
 .child-1{
     position: absolute;
-    top: 0%;
+    top: 0;
     left: 0;
     width: 50%;
     height: 50%;
@@ -41,3 +54,33 @@ stacking context demo
     background: red;
     z-index: -1;
 }
+
+
+/*.child-1 {*/
+/*    position: fixed;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-around;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    !*background: transparent;*!*/
+/*    text-align: center;*/
+/*    z-index: 999;*/
+/*}*/
+
+/*.child-1 a {*/
+/*    font-size: 1.5rem;*/
+/*    !*margin: 6rem;*!*/
+/*}*/
+
+/*.child-2 {*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 1800px;*/
+/*    background: #ff1b68;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*}*/
+
