@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="">
+    <list default="true" id="dde40a2f-b321-489b-b4b6-fc19be005b65" name="Default Changelist" comment="1\24\21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/my_code/Natours/sass/layout/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/playground/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/playground/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_2_expert/playground/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/class_2_expert/playground/styles.css" afterDir="false" />
     </list>
@@ -232,6 +234,16 @@
       <workItem from="1628949580874" duration="28000" />
       <workItem from="1629037997536" duration="6590000" />
       <workItem from="1629071727031" duration="80000" />
+      <workItem from="1629072278297" duration="18000" />
+      <workItem from="1629651722841" duration="6561000" />
+      <workItem from="1629671874441" duration="1895000" />
+      <workItem from="1630157531491" duration="815000" />
+      <workItem from="1630761130837" duration="11165000" />
+      <workItem from="1631365400777" duration="21000" />
+      <workItem from="1631484159168" duration="3758000" />
+      <workItem from="1631493709734" duration="21000" />
+      <workItem from="1631970876243" duration="1045000" />
+      <workItem from="1632004417967" duration="3349000" />
     </task>
     <task id="LOCAL-00001" summary="1\24\21">
       <created>1611536612054</created>
@@ -443,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628949592581</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1\24\21">
+      <created>1629072285694</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1629072285694</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

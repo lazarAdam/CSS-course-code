@@ -27,10 +27,43 @@ stacking context demo
 }
 
 .parent-test-2{
-    position: relative;
-    width: 100%;
+    /*position: relative;*/
+    width: 50%;
     background: blueviolet;
-    top: 0;
+    /*top: 0;*/
+    margin: 3rem;
+    height: 50vh;
+    /*clip-path: polygon(0 0 , 100% 0, 90% 50%, 80% 100%, 0 100%);*/
+
+    /*clip-path: polygon(0 0 , 100% 0, 100% 50%, 100% 100%, 0 100%);*/
+    transition: clip-path 1s linear;
+
+
+}
+
+.parent-test-2::before{
+    content: '';
+    display: block;
+    position: relative;
+    top:5rem;
+    width: 35%;
+    height: 35%;
+    background: #1cf1cf;
+    z-index: 1;
+}
+
+/*.parent-test-2:hover{*/
+/*    !*clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 10% 50%);*!*/
+/*}*/
+
+.child-4{
+
+    background: #2ddf5c;
+    width: 75%;
+    height: 50%;
+    margin: 1rem;
+    position: relative;
+    z-index: 0;
 }
 
 .child-1{
@@ -63,38 +96,29 @@ stacking context demo
     top: 0;
 }
 
-.child-3{
-    height: 10%;
-    width: 100%;
-    background: #2ddf5c;
-    top:0;
+.parent-test-3{
+    height: 25rem;
+    width: 50%;
+    background: blue;
+    position: relative;
 }
 
-/*.child-1 {*/
-/*    position: fixed;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: space-around;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    width: 100%;*/
-/*    !*background: transparent;*!*/
-/*    text-align: center;*/
-/*    z-index: 999;*/
-/*}*/
 
-/*.child-1 a {*/
-/*    font-size: 1.5rem;*/
-/*    !*margin: 6rem;*!*/
-/*}*/
 
-/*.child-2 {*/
-/*    position: relative;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    height: 1800px;*/
-/*    background: #ff1b68;*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*}*/
+/**
+absolute positioned element centred with margin auto using defined top,bottom,left,right
+ */
+.child-3{
 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 50%;
+    height: 50%;
+    background: orangered;
+    position: absolute;
+    margin: auto;
+
+}
