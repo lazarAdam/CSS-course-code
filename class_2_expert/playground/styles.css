@@ -122,3 +122,18 @@ absolute positioned element centred with margin auto using defined top,bottom,le
     margin: auto;
 
 }
+
+
+.parent-test-4{
+    height: 350px;
+    width: 350px;
+    background: grey;
+
+}
+
+.child-5{
+
+    max-width: 100%;
+    max-height: 100%;
+
+}
