@@ -123,17 +123,40 @@ absolute positioned element centred with margin auto using defined top,bottom,le
 
 }
 
-
-.parent-test-4{
-    height: 350px;
-    width: 350px;
-    background: grey;
-
-}
-
 .child-5{
 
     max-width: 100%;
     max-height: 100%;
 
+}
+
+.img-flex-cont{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    /*background-color: burlywood;*/
+    color: #fff;
+    font-size: 48px;
+    margin: 5px;
+    flex:  1 1 calc(25% - 10px);
+
+}
+
+.img-wrapper{
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
+}
+
+.box img{
+    width: 100%;
+    position: absolute;
+    bottom:50%;
+    transform: translateY(50%);
 }
