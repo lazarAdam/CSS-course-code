@@ -12,7 +12,7 @@
       themselves however they want, and they will be positioned at the start,end... side of your flex container.
       so we are not controlling what size the child element should follow. for example will take it's full original size
 
-    The flex item that wraps the image doesn’t have its own size (it has the default width: auto), so your image’s width: 100%
+    The flex item that wraps the image doesn't have its own size (it has the default width: auto), so your image’s width: 100%
     can’t be resolved. In that case the image behaves as though it had width: auto, and basically renders at its full size.
     Then, the flex item takes on that size, and that’s why it’s so big in your flex container.
 
@@ -74,6 +74,7 @@
 .item--4{
     position: relative;
     min-height: 100vh;
+    /*height: auto;*/
 }
 
 .con{
