@@ -157,16 +157,3 @@ absolute positioned element centred with margin auto using defined top,bottom,le
     bottom:50%;
     transform: translateY(50%);
 }
-
-.box-test{
-    flex: 1 0 25%;
-}
-
-.box-child{
-    position: relative;
-}
-
-.box-child img{
-    width: 100%;
-    height: 100%;
-}

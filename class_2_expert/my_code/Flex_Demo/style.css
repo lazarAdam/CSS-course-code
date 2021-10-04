@@ -35,11 +35,11 @@
     min-height: 1000px;
     display: flex;
 
-    flex-direction:  column;
+    flex-direction:  row;
 
     justify-content: center;/** along the main axis**/
-    align-items: stretch; /**along the cross  axis**/
-    flex-wrap: nowrap;
+    align-items: center; /**along the cross  axis**/
+    flex-wrap: wrap;
 
 }
 
@@ -54,13 +54,13 @@
 
 .item--2{
     height: 200px;
-    flex: 0 0 auto;
+    flex:1;
 }
 
 
 .item--3{
     order: 1;
-    flex: 0 0 50%;
+    flex: 1 0 200px;
 }
 /*.item--3 img{*/
 
