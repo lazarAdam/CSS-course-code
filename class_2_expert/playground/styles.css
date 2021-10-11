@@ -130,6 +130,29 @@ absolute positioned element centred with margin auto using defined top,bottom,le
 
 }
 
+
+/**
+  About responsive flex images using the padding-bottom or top and aspect ratio trick
+  This method allows to position images with different sizes in flex box context.
+  The following is some step to achieve this.
+
+  1. Create a picture wrapper element with position relative and place it inside a flex item if flex is used
+  2. Place the image tag inside the wrapper and give it a position of absolute
+  3. calculate the aspect ration of the image with lowest height (dividing the height by the width)
+  4. the result will be applied to padding-bottom or top in %
+  5. padding will act as content and when used as % value it becomes proportional to the width.
+     For example if the wrapper width = 500px using padding-bottom = 100% will give the wrapper 500px of height
+  6. The previous step will allow the wrapper to have a height even if it's img child is positioned absolute
+     The width of the wrapper is defined by the child image width, therefore using padding-bottom with %
+     will be proportional to the width of the wrapper
+
+  7. To make all the images the same size we use overflow hidden and center with top 50% and translateY(-50%)
+     on the image wrapper. This will make all the images be strictly sized equal to the smallest image.
+     overflow:hidden will hide the overflow of the larger images and center them in the wrapper. We can also think of
+     the wrapper as a frame. This method will also work if the images have the same size the difference is that
+     the images will have equal aspect ratio therefore they will perfectly fit inside the wrapper without overflowing.
+*/
+
 .img-flex-cont{
     display: flex;
     flex-wrap: wrap;
